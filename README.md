@@ -55,10 +55,13 @@ This project implements a **high-performance triangle coordinate calculator**. T
 - **Reset Scheme**: Active-high asynchronous reset
 - **Input Timing**: Coordinates provided sequentially over clock cycles
 
+## 🚀 Prerequisites
+- **Verilog Simulator**: NCVerilog 15.20
+- **Waveform Viewer**: nWave (Verdi_P-2019.06)
+- **Synthesis Tools**: GENUS 20.10
+
 ## 🧪 Testing & Verification
 ![tb_result](https://github.com/user-attachments/assets/e015ec1f-3eb5-440d-b938-b8a4f5b336b6)
 
 ### Report Summary
 ![report_summary](https://github.com/user-attachments/assets/f2e126df-ad4b-4ed2-a1ef-4fc089de561e)
-
-
