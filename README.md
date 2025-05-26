@@ -64,4 +64,3 @@ This project implements a **high-performance triangle coordinate calculator**. T
 ![tb_result](https://github.com/user-attachments/assets/e015ec1f-3eb5-440d-b938-b8a4f5b336b6)
 
 ### Report Summary
-![report_summary](https://github.com/user-attachments/assets/f2e126df-ad4b-4ed2-a1ef-4fc089de561e)
