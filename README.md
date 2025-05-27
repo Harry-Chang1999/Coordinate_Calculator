@@ -1,7 +1,7 @@
 # Coordinate_Calculator
 ## Overview
 
-This project implements a **high-performance triangle coordinate calculator**. The system receives three consecutive coordinate inputs representing triangle vertices and outputs a sequence of valid coordinate pairs (xo, yo) that represent all integer points within the triangle boundary using scanline rasterization algorithms.
+This project implements a **triangle coordinate calculator**. The system receives three consecutive coordinate inputs representing triangle vertices and outputs a sequence of valid coordinate pairs (xo, yo) that represent all integer points within the triangle boundary using scanline rasterization algorithms.
 
 ## 🎯 Project Objectives
 
