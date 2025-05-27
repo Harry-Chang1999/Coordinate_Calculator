@@ -56,11 +56,44 @@ This project implements a **high-performance triangle coordinate calculator**. T
 - **Input Timing**: Coordinates provided sequentially over clock cycles
 
 ## 🚀 Prerequisites
-- **Verilog Simulator**: NCVerilog 15.20
+- **Verilog Simulator**: NC-Verilog 15.20
 - **Waveform Viewer**: nWave (Verdi_P-2019.06)
-- **Synthesis Tools**: GENUS 20.10
+- **Synthesis Tools**: Genus 20.10
 
 ## 🧪 Testing & Verification
 ![tb_result](https://github.com/user-attachments/assets/e015ec1f-3eb5-440d-b938-b8a4f5b336b6)
 
 ### Report Summary
+
+#### 📋 Design Information
+
+| Parameter | Value |
+|-----------|-------|
+| **Module** | triangle |
+| **Technology Library** | N16ADFP_StdCells0p72v125c_ccs 100 |
+| **Operating Conditions** | ss0p72v125c |
+| **Interconnect Mode** | global |
+| **Area Mode** | physical library |
+
+#### ⏱️ Timing Analysis
+
+| Metric | Value | Unit |
+|--------|-------|------|
+| **Slack** | +7ps | ps |
+| **Endpoint** | c_reg[1][5]/D clk | - |
+| **Cost Group** | - | - |
+
+**Status**: ✅ **Timing Constraints Met** (Positive slack of 7ps)
+
+#### 📐 Area Report
+
+| Instance | Module | Cell Count | Cell Area | Net Area | Total Area |
+|----------|--------|------------|-----------|----------|------------|
+| **triangle** | - | **712** | **380.920** | **145.658** | **526.578** |
+
+#### ✅ Design Rule Check (DRC)
+
+| Check Type | Result | Status |
+|------------|--------|--------|
+| **Max Transition Design Rule** | No violations | ✅ Pass |
+| **Max Capacitance Design Rule** | No violations | ✅ Pass |
