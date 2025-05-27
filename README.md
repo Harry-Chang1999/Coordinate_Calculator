@@ -87,9 +87,9 @@ This project implements a **high-performance triangle coordinate calculator**. T
 
 #### 📐 Area Report
 
-| Instance | Module | Cell Count | Cell Area | Net Area | Total Area |
-|----------|--------|------------|-----------|----------|------------|
-| **triangle** | - | **712** | **380.920** | **145.658** | **526.578** |
+| Instance Module | Cell Count | Cell Area | Net Area | Total Area |
+|------------------|------------|-----------|----------|------------|
+| **triangle** | **712** | **380.920** | **145.658** | **526.578** |
 
 #### ✅ Design Rule Check (DRC)
 
